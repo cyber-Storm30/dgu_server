@@ -6,7 +6,7 @@ const hospitalSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    email: {
+    address: {
       type: String,
       required: true,
     },
@@ -14,7 +14,7 @@ const hospitalSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    address: {
+    workHour: {
       type: String,
       required: true,
     },

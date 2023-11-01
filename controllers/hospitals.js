@@ -2,9 +2,9 @@ import HospitalModel from "../models/hospitals.js";
 
 export const createHospital = async (req, res) => {
   try {
-    const { name, email, mobile, address } = req.body;
+    const { name, workHour, mobile, address } = req.body;
     const hospital = new HospitalModel({
-      email,
+      workHour,
       name,
       mobile,
       address,
